@@ -2171,8 +2171,8 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
-		object-fit: contain;
 	}
+
 	
 a.image {
 	overflow: hidden; }
@@ -2210,6 +2210,7 @@ a.image {
 
 		.image img {
 			display: block;
+
 		}
 
 		.image.fit {
