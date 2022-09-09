@@ -3304,19 +3304,18 @@ input, select, textarea {
 
 	}
 
-
-
-
-	.hero-name {
-		margin: 1rem 0;
-		font-size: 2rem;
-		transition: font-size 1s;
-		text-align: center;
-   }
-   .hero-blinker {
+/* ******************************* */
+/* ADDITIONAL STYLES */
+/* ******************************* */
+.hero-name {
+	margin: 1rem 0;
+	font-size: 2rem;
+	transition: font-size 1s;
+	text-align: center;
+}
+.hero-blinker {
 	display: inline-block;
 	width: 2px;
-	/* text-shadow: 2px 2px 5px #c3073f; */
 	margin-left: 8px;
 	animation: blink .8s linear infinite alternate;
 }
@@ -3336,4 +3335,10 @@ input, select, textarea {
 	100% {
 		 opacity: 0;
 	}
+}
+.about-text{
+	text-transform: none;
+}
+.skills{
+	padding-top: 20px;
 }
