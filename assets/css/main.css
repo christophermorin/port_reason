@@ -2630,7 +2630,7 @@ a.image {
 		}
 
 /* Feature */
-
+	
 	.feature {
 		position: relative;
 		height: 20em;
@@ -2817,7 +2817,7 @@ a.image {
 
 	#footer {
 		background-attachment: scroll;
-		background-color: #4eb980;
+		background-color: #1a1a1d;
 		background-image: url("images/bottom-3200.svg");
 		background-position: top center;
 		background-repeat: repeat-x;
