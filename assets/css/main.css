@@ -115,7 +115,7 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #4eb980;
+		color: #1a1a1d;
 		text-decoration: none;
 	}
 
@@ -204,7 +204,6 @@ input, select, textarea {
 				.container.medium {
 					width: 36em;
 				}
-
 		}
 
 		@media screen and (max-width: 980px) {
@@ -732,7 +731,7 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 1280px) {
-
+	
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -2784,7 +2783,7 @@ a.image {
 		}
 
 		#header .logo {
-			background: #4eb980;
+			background: #ffffff;
 			border-radius: 100%;
 			color: #ffffff;
 			cursor: default;
@@ -2950,7 +2949,7 @@ a.image {
 /* Wide */
 
 	@media screen and (max-width: 1680px) {
-
+		
 		/* Basic */
 
 			body, input, select, textarea {
@@ -3089,7 +3088,7 @@ a.image {
 /* Narrow */
 
 	@media screen and (max-width: 980px) {
-
+		
 		/* Basic */
 
 			body, input, select, textarea {
@@ -3327,18 +3326,13 @@ a.image {
 /* ******************************* */
 /* ADDITIONAL STYLES */
 /* ******************************* */
-.hero-name {
-	margin: 1rem 0;
-	font-size: 2rem;
-	transition: font-size 1s;
-	text-align: center;
-}
 .hero-blinker {
 	display: inline-block;
 	width: 2px;
-	margin-left: 8px;
+	padding-left: 4px;
 	animation: blink .8s linear infinite alternate;
 }
+
 @keyframes blink {
 	0% {
 		 opacity: 1;
@@ -3355,6 +3349,11 @@ a.image {
 	100% {
 		 opacity: 0;
 	}
+}
+.top-social{
+	display: flex;
+	padding-top: 20px;
+	justify-content: center;
 }
 .about-text{
 	text-transform: none;
